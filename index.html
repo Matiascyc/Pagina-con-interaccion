@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura por el espacio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+
+</head>
+
+<body>
+    <video src="portada.mp4" autoplay muted loop></video>
+
+
+    <h1>
+         Aventura por el espacio
+    </h1>
+    <p class="Textoportada">Te animas a jugar?</p>
+    <img class="silencio" style=width:200px id="onOff" margin="0px" padding="0px 0px" src="silence.png"
+        alt="No se encontro el boton de silencio">
+
+    <div class="si"> <a href="index3.html"><i>SI</a></div>
+
+    <audio id="audio" autoplay src="Portada.mp3" type="audio/mp3">
+    </audio>
+    <script type="text/javascript">
+
+        /* Variable de sonido/muted */
+        window.onload = function () {
+            var audio = document.getElementById("audio");
+            var image = document.getElementById("onOff");
+
+            //autoplay
+            audio.play(); image.value = "pause";
+
+            //al momento de apretar el boton
+            image.onclick = function () {
+                if (image.value == 'play') {
+                    audio.play();
+                    image.value = "pause";
+                }
+                else {
+                    audio.pause();
+                    image.value = "play";
+                    image.className = "activo";
+                }
+            }
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

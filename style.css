@@ -1,0 +1,184 @@
+/*botones portada aspecto*/
+.si {
+    width: 10%;
+    height: 10%;
+    font-family: Arial;
+    font-size: 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0% 5%;
+    margin: auto;
+    background-position: center;
+    text-align: center;
+
+
+
+
+}
+
+/*botones boton animacion*/
+.si:hover {
+
+    background-image: url(Fondoboton.gif);
+    border: 5px solid;
+    border-radius: 20px;
+    border-style: groove;
+    color: rgb(77, 76, 76);
+}
+
+.Textoportada {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 5%;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+body {
+    background-color: black;
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
+    width: 20%;
+    margin: auto;
+    border-radius: 25px;
+    border-style: groove;
+    border-color: grey;
+    margin-top: 2%;
+}
+
+/*Todo el texto*/
+h6 {
+    width: 50%;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(158, 240, 6);
+    padding: 2%;
+    margin-top: 2%;
+border-radius: 50px;
+}
+
+/* Header*/
+.contenedor {
+
+    border-color: azure;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+
+}
+
+/*Estetica boton comienzo*/
+.comienzo {
+
+    width: 12%;
+
+    font-family: Arial;
+    font-weight: 70px;
+    font-size: 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0px 30px;
+    margin: auto;
+    margin-top: 5%;
+    background-position: center;
+    text-align: center center;
+
+
+}
+
+/* animacion boton comienzo*/
+.comienzo:hover {
+    background-image: url(Fondoboton2.gif);
+    border: 5px ;
+    border-style: groove;
+    color: rgba(77, 76, 76, 0.425);
+}
+
+
+/* estetica Botones de transicion*/
+.ag1 {
+
+
+    width: 6%;
+   font-family: Arial;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 2%;
+    margin: auto;
+    color: solid rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 1%;
+
+
+
+}
+
+/*Animacion botones*/
+.ag1:hover {
+
+    background-image: url(Fondoboton2.gif);
+    border: 5px solid black;
+    border-style: double;
+    color: rgb(2, 2, 2);
+}
+
+/*Boton final*/
+.ag2 {
+
+    width: 10%;
+   font-family: Arial;
+    font-size: 35px;
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: black;
+    padding: 5% 5%;
+    margin: auto;
+    margin-top: 2%;
+    color: solid rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+/*boton final animacion*/
+.ag2:hover {
+
+    background-image: url(felicitaciones.jpg);
+    border: 5px solid black;
+    border-style:ridge;
+  background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    zoom: 0.5%;
+    
+    
+
+}
+
+.imagenes {
+
+    text-align: center;
+}
+
